@@ -1,0 +1,26 @@
+{
+  "name": "phase2-interview",
+  "version": "1.0.0",
+  "description": "# Phase 2 Interview Challenge",
+  "main": "functions.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register ./tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silentsoundz/phase2-interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silentsoundz/phase2-interview/issues"
+  },
+  "homepage": "https://github.com/silentsoundz/phase2-interview#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.5.0",
+    "nodemon": "^1.11.0"
+  }
+}
