@@ -37,4 +37,4 @@ const filterBetween = (array, min, max) => {
 
 module.exports = {month, reverseSentence, nameProps, filterBetween}
 
-// let propsArray = Object.values(nameProps).map(value => nameProps[value])
+

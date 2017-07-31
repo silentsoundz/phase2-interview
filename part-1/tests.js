@@ -1,4 +1,4 @@
-const assert = require('chai').assert;
+ const assert = require('chai').assert;
 const {month, reverseSentence, nameProps, filterBetween} = require('./functions.js')
 
 describe('tests for month', () => {
