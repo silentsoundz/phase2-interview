@@ -19,10 +19,10 @@
  ```
 
 - On a UNIX computer, how do you find the process id of a running process?
- -  You will need to open another terminal and use the  `top` or `ps` command.
+  - You will need to open another terminal and use the  `top` or `ps` command.
 
 - In a terminal, what does control-c do?
- -  `Control+C` is used to kill a process with the signal  SIGINT, and can be intercepted by a program so it can clean its self up
+  -  `Control+C` is used to kill a process with the signal  SIGINT, and can be intercepted by a program so it can clean its self up
     before exiting, or not exit at all.
 
 - What would be the result of typing the following commands?
@@ -41,15 +41,15 @@ $ pwd
    then create a file called bar
    pwd returns /Users/steve/foo
 - How do you set an environment variable in your shell?
- - I would first use the `env` command to see the default variable list. Then you can modify each environmental variable using  
+  - I would first use the `env` command to see the default variable list. Then you can modify each environmental variable using  
    the `export` command.
 - What keyboard shortcut do you use to split the screen in your editor?
- - I should be able to use `Cmd+k` and the arrows but alas
+  - I should be able to use `Cmd+k` and the arrows but alas
    that has never worked for me (silly spectacle). I just  - drag and drop the file onto the left lower screen.
 - How do you create an alias in your shell?
- - `alias -p name="value"` for example alias `-p gco="git check out"` creates an alais for me to use gco as a keyboard shortcut.
+  - `alias -p name="value"` for example alias `-p gco="git check out"` creates an alais for me to use gco as a keyboard shortcut.
 - When a terminal command completes, how can you tell if it was successful or not?
- - A green arrow at the beginning of the next command line - indicates the terminal command was successful. Also the `history`
+  - A green arrow at the beginning of the next command line - indicates the terminal command was successful. Also the `history`
    command will show you all the successful commands during the current session.
 - What does your `~/.gitconfig` have in it? (paste the whole file here)
    ```
@@ -101,7 +101,7 @@ $ pwd
     ```
 
 - What is the difference between a relative and absolute path?
- - An absolute path is defined as the specifying the location of a file or directory from the root directory. Relative path is defined as path related to the present working directory(pwd).
+  - An absolute path is defined as the specifying the location of a file or directory from the root directory. Relative path is defined as path related to the present working directory(pwd).
 - Lets say you have the following file structure
 
   ```
@@ -115,12 +115,12 @@ $ pwd
   ```
 
   And you were in the `linkedin-for-dancers` folder. What command would you use to copy the `README.md` file to the `pinterest-for-dogs` folder?
-   - `cp README.md ../pinterest-for-dogs`
+    - `cp README.md ../pinterest-for-dogs`
 
 - What keyboard shortcut do you use, in your editor, to go to a file in the project you have open?
- - `open <filename>`
+  - `open <filename>`
 - What files or folders do you want all git repositories to ignore?
- - this is what I have in my .gitignore
+  - this is what I have in my .gitignore
 ```
     # Numerous always-ignore extensions
     *.diff
@@ -174,4 +174,4 @@ $ pwd
     /tmp
 ```
 - What is the main difference between `Array.map` and `Array.forEach` in JavaScript?
- - The `map()` method creates a new array with the results of calling a provided function on every element in the calling array. The `forEach()` method executes a provided function once for each array element.
+  - The `map()` method creates a new array with the results of calling a provided function on every element in the calling array. The `forEach()` method executes a provided function once for each array element.
