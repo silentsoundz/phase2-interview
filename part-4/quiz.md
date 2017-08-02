@@ -19,7 +19,7 @@
  ```
 
 - On a UNIX computer, how do you find the process id of a running process?
- - You will need to open another terminal and use the  `top` or `ps` command.
+ -  You will need to open another terminal and use the  `top` or `ps` command.
 
 - In a terminal, what does control-c do?
  -  `Control+C` is used to kill a process with the signal  SIGINT, and can be intercepted by a program so it can clean its self up
