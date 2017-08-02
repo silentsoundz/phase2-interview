@@ -1,10 +1,5 @@
 ## Part 4: Quiz time!
 
-Copy the questions below into a file `part-4/quiz.md`. Then, write your answer to each question directly below it.
-
-The quiz is worth __50 points__ in total.
-
-_Reminder: you can use the internet to help you answer these questions :)_
 
 - When you run a command in the terminal, where does BASH look for that command?
   - bash will use a shell variable called $PATH to locate  your executable. The $PATH variable is a list of directories. The directories are separated by colons ( : ). bash will search in each of those directories for a file with the name that you specified.
