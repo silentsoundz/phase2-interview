@@ -34,7 +34,7 @@ $ cd foo
 $ touch bar
 $ pwd
 ```
- - you will be in your home directory called steve
+  - you will be in your home directory called steve
    you then make a directory called foo
    you then make a file in the steve directory called bar
    you will change into directory foo
@@ -47,7 +47,7 @@ $ pwd
   - I should be able to use `Cmd+k` and the arrows but alas
    that has never worked for me (silly spectacle). I just  - drag and drop the file onto the left lower screen.
 - How do you create an alias in your shell?
-  - `alias -p name="value"` for example alias `-p gco="git check out"` creates an alais for me to use gco as a keyboard shortcut.
+  - `alias -p name="value"` for example `alias -p gco="git check out"` creates an alais for me to use gco as a keyboard shortcut.
 - When a terminal command completes, how can you tell if it was successful or not?
   - A green arrow at the beginning of the next command line - indicates the terminal command was successful. Also the `history`
    command will show you all the successful commands during the current session.
