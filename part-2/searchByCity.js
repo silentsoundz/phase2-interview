@@ -5,7 +5,6 @@ const searchByCity = (query) => {
   let queryLowerCase = query.toLowerCase()
   const searchResults = []
 
-
   clients.forEach((client) => {
     let city = client.city.toLowerCase()
     if(city.includes(queryLowerCase)) {

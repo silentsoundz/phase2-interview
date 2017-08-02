@@ -4,6 +4,7 @@ const searchArg = process.argv[2]
 const searchByCompany = (query) => {
   let queryLowerCase = query.toLowerCase()
   const searchResults = []
+
   clients.forEach((client) => {
     let company = client.company.toLowerCase()
     if(company.startsWith(queryLowerCase)) {
