@@ -34,7 +34,7 @@ $ cd foo
 $ touch bar
 $ pwd
 ```
-  - you will be in your home directory called steve
+   - you will be in your home directory called steve
    you then make a directory called foo
    you then make a file in the steve directory called bar
    you will change into directory foo
