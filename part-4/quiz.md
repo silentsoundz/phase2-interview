@@ -34,12 +34,12 @@ $ cd foo
 $ touch bar
 $ pwd
 ```
-    - You will be in your home directory called steve
-     you then make a directory called foo
-     you then make a file in the steve directory called bar
-     you will change into directory foo
-     then create a file called bar
-     pwd returns /Users/steve/foo
+  - You will be in your home directory called steve
+    you then make a directory called foo
+    you then make a file in the steve directory called bar
+    you will change into directory foo
+    then create a file called bar
+    pwd returns /Users/steve/foo
 - How do you set an environment variable in your shell?
   - I would first use the `env` command to see the default variable list. Then you can modify each environmental variable using  
    the `export` command.
