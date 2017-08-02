@@ -26,7 +26,7 @@ const nameProps = (object) => {
 }
 
 const filterBetween = (array, min, max) => {
-  if(!Array.isArray( array)) {
+  if(!Array.isArray(array)) {
     throw new Error('please enter valid array')
   }
   let filteredArray = array.filter((element) => {
