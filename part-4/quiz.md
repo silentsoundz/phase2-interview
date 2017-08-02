@@ -5,7 +5,7 @@
   - bash will use a shell variable called $PATH to locate  your executable. The $PATH variable is a list of directories. The directories are separated by colons ( : ). bash will search in each of those directories for a file with the name that you specified.
 
 - On a UNIX computer, how do you stop a running process?
-   - `Ctrl-C` if this doesn't work you need to get the PID. This can be done by using the top command to locate the process. Then you can run the kill command
+   - `Ctrl-C` if this doesn't work you need to get the PID. This can be done by using the top command to locate the process. Then you can run the kill command</br>
    kill - Kill a process by ID</br>
    killall - Kill a process by name
 
